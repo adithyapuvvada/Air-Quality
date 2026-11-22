@@ -1,12 +1,14 @@
 version: 0.2
-  phases:
-    install:
-      commands:
-        - echo "Nothing to install"
-    build:
-      commands:
-        - echo "Preparing static website files"
-  artifacts:
-    files:
-      - '**/*'
-  base-directory: 'src/main/'
+
+phases:
+  install:
+    commands:
+      - echo "Nothing to install"
+  build:
+    commands:
+      - echo "Preparing static website files"
+
+artifacts:
+  base-directory: src/main
+  files:
+    - '**/*'
