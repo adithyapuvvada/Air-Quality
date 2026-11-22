@@ -9,6 +9,6 @@ phases:
       - echo "Preparing static website files"
 
 artifacts:
-  base-directory: src/main
+  base-directory: .
   files:
     - '**/*'
